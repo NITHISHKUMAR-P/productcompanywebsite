@@ -3,7 +3,8 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 body {
-  background-color: whitesmoke;
+  background-image: url("/static/img/bgi.jpg");
+  background-color: black;
   color: #17421d;
 }
 .container {
@@ -12,20 +13,26 @@ body {
   margin-right: auto;
   border-width: 1px 1px 1px 1px;
   border-style: solid;
-  box-shadow: 15px 15px 8px gray;
+  box-shadow: 15px 15px 8px rgb(207,103,24);
 }
 
 .banner {
   display: block;
   width: 100%;
-  height: 250px;
+  height: 100%;
   text-align: center;
-  font-size: 60px;
+  font-size: 65px;
   background-image: url("/static/img/banner1.jpg");
   background-size: 100% 100%;
   margin: 0px 0px 0px 0px;
   padding-top: 150px;
-  color: #16d1ae;
+  color: #C7C85E;
+  font-family:serif;
+  font-weight: bolder;
+}
+
+.banner img {
+  float:left;
 }
 
 .menu {
@@ -33,8 +40,9 @@ body {
   width: 100%;
   height: 50px;
   font-size: larger;
-  background-color: #5bb045;
+  background-color: #f0ba0a;
   text-align: center;
+  font-weight: bolder;
   padding-top: 15px;
   margin: 0px 0px 0px 0px;
   border-width: 1px;
@@ -45,6 +53,7 @@ body {
   margin-left: 10px;
   margin-right: 10px;
 }
+
 .menuitemselected {
   display: inline-block;
   margin-left: 10px;
@@ -60,11 +69,11 @@ body {
 .content {
   display: block;
   width: 100%;
-  background-color: #cffffd;
+  background-color: #ebdb07;
   min-height: 500px;
   margin: 0px 0px 0px 0px;
   border-width: 1px;
-  border-color: white;
+  border-color: #ebdb07;
   border-style: solid;
 }
 .homecontent {
@@ -83,6 +92,10 @@ body {
 
 .contenttext {
   text-align: justify;
+  font-size: 20px;
+}
+.gamecont {
+  text-align: center;
 }
 
 .productcontent {
@@ -106,8 +119,8 @@ body {
 }
 
 .productitem img {
-  width: 100px;
-  height: 100px;
+  width: 215px;
+  height: 235px;
   display: block;
 }
 .productitem .itemimage {
@@ -120,18 +133,69 @@ body {
 
 .productitem .itemname {
   display: block;
+  font-weight: bolder;
+  text-align: right;
+  font-size: x-large;
 }
 .productitem .itemprice {
   display: block;
+  font-weight: bold;
+  text-align: right;
+  font-size: large;
 }
+.buy {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(10, 19, 151);
+}
+.pay {
+  text-align: center;
+  font-size: 100px;
+  color: rgb(243, 0, 0);
+  font-family:Fantasy,copperplate;
 
+
+}
 .footer {
   display: block;
   width: 100%;
   height: 40px;
-  background-color: #5bb045;
+  background-color: #f0ba0a;
   text-align: center;
   padding-top: 10px;
   margin: 0px 0px 0px 0px;
+  font-weight: bolder;
   color: #9c1018;
 }
+.people img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.people {
+  display: inline-block;
+  width: 30%;
+  height: 250px;
+  text-align: center;
+}
+.people .pimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.people .pname {
+  display: block;
+  font-size: 30px;
+}
+.people .pprice {
+  display: block;
+  font-size: 20px;
+}
+.people img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
