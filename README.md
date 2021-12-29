@@ -36,6 +36,211 @@ Publish the website in the given URL.
 
 ## PROGRAM :
 
+### CSS Layout:
+```
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-image: url("/static/img/bgi.jpg");
+  background-color: black;
+  color: #17421d;
+}
+.container {
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  box-shadow: 15px 15px 8px rgb(207,103,24);
+}
+
+.banner {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 65px;
+  background-image: url("/static/img/banner1.jpg");
+  background-size: 100% 100%;
+  margin: 0px 0px 0px 0px;
+  padding-top: 150px;
+  color: #C7C85E;
+  font-family:serif;
+  font-weight: bolder;
+}
+
+.banner img {
+  float:left;
+}
+
+.menu {
+  display: block;
+  width: 100%;
+  height: 50px;
+  font-size: larger;
+  background-color: #f0ba0a;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 15px;
+  margin: 0px 0px 0px 0px;
+  border-width: 1px;
+}
+
+.menuitem {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.menuitemselected {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #16d1ae;
+}
+
+.menuitem a {
+  text-decoration: none;
+  color: #9c1018;
+}
+
+.content {
+  display: block;
+  width: 100%;
+  background-color: #ebdb07;
+  min-height: 500px;
+  margin: 0px 0px 0px 0px;
+  border-width: 1px;
+  border-color: #ebdb07;
+  border-style: solid;
+}
+.homecontent {
+  min-height: 500px;
+  margin: 10px 10px 10px 10px;
+}
+.homecontent h1 {
+  text-align: left;
+}
+.homecontent img {
+  float: right;
+  width: 400px;
+  height: 300px;
+  margin-left: 10px;
+}
+
+.contenttext {
+  text-align: justify;
+  font-size: 20px;
+}
+.gamecont {
+  text-align: center;
+}
+
+.productcontent {
+  min-height: 500px;
+  margin: 10px 10px 10px 10px;
+}
+
+.productcontent h1 {
+  text-align: left;
+}
+
+.productitems {
+  display: block;
+}
+
+.productitem {
+  display: inline-block;
+  width: 30%;
+  height: 250px;
+  text-align: center;
+}
+
+.productitem img {
+  width: 215px;
+  height: 235px;
+  display: block;
+}
+.productitem .itemimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+.productitem .itemname {
+  display: block;
+  font-weight: bolder;
+  text-align: right;
+  font-size: x-large;
+}
+.productitem .itemprice {
+  display: block;
+  font-weight: bold;
+  text-align: right;
+  font-size: large;
+}
+.buy {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(10, 19, 151);
+}
+.pay {
+  text-align: center;
+  font-size: 100px;
+  color: rgb(243, 0, 0);
+  font-family:Fantasy,copperplate;
+
+
+}
+.footer {
+  display: block;
+  width: 100%;
+  height: 40px;
+  background-color: #f0ba0a;
+  text-align: center;
+  padding-top: 10px;
+  margin: 0px 0px 0px 0px;
+  font-weight: bolder;
+  color: #9c1018;
+}
+.people img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.people {
+  display: inline-block;
+  width: 30%;
+  height: 250px;
+  text-align: center;
+}
+.people .pimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.people .pname {
+  display: block;
+  font-size: 30px;
+}
+.people .pprice {
+  display: block;
+  font-size: 20px;
+}
+.people img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+```
+
 ### HOME PAGE:
 ```
 <!DOCTYPE html>
@@ -985,7 +1190,6 @@ Publish the website in the given URL.
   </body>
 </html>
 ```
-### CSS
 
 ## OUTPUT:
 
